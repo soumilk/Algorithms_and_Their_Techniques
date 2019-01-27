@@ -62,7 +62,8 @@ distance in point (p1,p2) and (q1,q2) is = sqrt((p1-q1)<sup>2</sup> + (p2-q2)<su
        - The strip is virtually divided into the squares of d/2 X d/2.  
        - From the above figure, We can see that, for the point q the comparisions should be with atmost 7 blocks.
        - So this is how we can see that the closest points among the strip will be found out. 
-    
+    <br><br>
+ For the code you can visit [this] (https://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/).
 
     
     
