@@ -12,8 +12,8 @@ void swap(int *p,int *q)
 int partition(int *arr,int left,int right)
 {
 	int pivot=arr[right];
-	int i=-1;
-	for (int j=0;j<right;j++)
+	int i=left-1;
+	for (int j=left;j<right;j++)
 	{
 		if (arr[j]<=pivot)
 		{
