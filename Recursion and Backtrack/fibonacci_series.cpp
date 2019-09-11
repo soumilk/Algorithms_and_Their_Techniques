@@ -4,7 +4,8 @@
 /*
  * This is the program of the fibonacci series.
  * Simple implementation of recursion to understand it better.
- */
+ * Series: 0 1 1 2 3 5 8 13 21 34 .... 
+*/
 
 #include <iostream>
 using namespace std;
