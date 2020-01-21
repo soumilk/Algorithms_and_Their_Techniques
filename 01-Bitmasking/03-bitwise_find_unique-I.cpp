@@ -1,7 +1,3 @@
-//
-// Created by soumil on 7/16/2019.
-//
-
 /*
  * THERE ARE N NUMBERS IN AN ARRAY, EVERY NUMBER IS REPEATED TWICE EXCEPT ONE NUMBER, FIND
    THAT NUMBER.
@@ -29,7 +25,7 @@ int main()
     int ans=0;
     for(int i=0;i<n;i++)
     {
-        ans=ans^arr[i];
+        ans=ans^arr[i];				// xor of same numbers results in zero
     }
     cout<<"The Unique element is "<<ans<<endl;
     delete [] arr;                 // Deleting the memory
