@@ -6,9 +6,6 @@ This is the program to demonstrate the concept of the bitmasking,
 #include<iostream>
 using namespace std;
 
-#include<iostream>
-using namespace std;
-
 // Function to clear the 'i'th bit of the number 
 int clear_bit(int n,int bit)
 {
